@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título dinámico pasado desde el controlador -->
+    <title>Entregable Modulo 6</title>
+    <!-- Enlazamos el CSS estático desde /public -->
+    <link rel="stylesheet" href="/public/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 User Data Manager</h1>
+        <!-- Dato dinámico renderizado por EJS -->
+        <p class="date">Hoy es: <strong><%= currentDate %></strong></p>
+        <p>Bienvenido al Entregable 1 del proyecto.</p>
+        <nav>
+            <a href="/">Inicio</a> |
+            <a href="/status">Estado del Servidor</a>
+        </nav>
+    </div>
+</body>
+</html>
