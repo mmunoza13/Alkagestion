@@ -19,7 +19,7 @@ Aplicación web de gestión de usuarios y datos desarrollada con Node.js y Expre
 
 1. Clona este repositorio en tu máquina local:
    ```bash
-   cd "Modulo 6"
+   https://github.com/mmunoza13/Alkagestion
   
 2. Instala las dependencias:
    ```bash 
